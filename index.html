@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Navbar -->
+        <nav class="navbar">
+            <div class="navbar-navigasi">
+                <div class="navbar-icon">
+
+                    <a href="#home"><i data-feather="home"></i><h1>Home</h1></a>
+                </div>
+                <div class="navbar-icon">
+
+                    <a href="#about"> <i data-feather="info"></i><h1>About</h1></a>
+                </div>
+                <div class="navbar-icon">
+
+                    <a href="#project"><i data-feather="code"></i><h1>Project</h1></a>
+                </div>
+                <div class="navbar-icon">
+
+                    <a href="#contact"> <i data-feather="phone"></i><h1>Contact</h1></a>
+                </div>
+            </div>
+        </nav>
+        <!-- Navbar End -->
+
+        <!-- welcome -->
+        <div id="home" class="welcome" data-aos="fade-up">
+            <h1>Welcome to <span class="auto-typing">My Website</span></h1>
+            <h1 class="name">Davin Naziel Bawarik</h1>
+                <a href="">View Portofolio</a>
+        </div>
+        <!-- welcome end -->
+
+        <!-- home -->
+        <div class="container-home">
+            <h1 id="about">About</h1>
+            <div class="main-home">
+                <img src="foto.jpg" alt="">
+                <div class="home-text">
+                    <h2>Halo perkenalkan saya <span>Davin Naziel Bawarik</span></h2>
+                    <a href="https://smkyadikasoreang.sch.id/">SMK Yadika Soreang<i data-feather="external-link"></i></a>
+                    <p>saya adalah salah satu siswa di SMK Yadika Soreang, saya siswa yang berada di jurusan PPLG (Pengembangan Perangkat Lunak dan Gim). Saya memilih jurusan tersebut karena saya mempunyai cita-cita untuk menjadi seorang programer dan saya ingin menjadi bagian dari Web Development.</p>
+                    <div class="link-icon">
+                        <a href="https://smkyadikasoreang.sch.id/"><i data-feather="instagram"></i><p>instagram</p></a>
+                        <a href="https://smkyadikasoreang.sch.id/"><i data-feather="github"></i><p>github</p></a>
+                        <a href="https://smkyadikasoreang.sch.id/"><i data-feather="phone"></i><p>whatsapp</p></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+       <!-- Home end -->
+
+       <!-- project -->
+        <div id="project" class="container-project">
+            <h1 id="about">Project</h1>
+            <div class="main-project">
+                <div class="project">
+               <img src="stylehere.png" alt="">
+               <h2>STYLE HERE</h2>
+                </div>
+                <div class="project">
+               <img src="lajuri.png" alt="">
+               <h2>LAJURI</h2>
+                </div>
+                <div class="project">
+               <img src="slicing.png" alt="">
+               <h2>SLICING WEB</h2>
+                </div>
+                <div class="project">
+               <img src="komikvors.png" alt="">
+               <h2>KOMIKVORS</h2>
+                </div>
+            </div>
+        </div>
+        <!-- project end -->
+
+        <!-- sertifikat -->
+        <div class="container-sertifikat">
+            <div class="main-sertifikat">
+                <h1>sertifikat</h1>
+                <div class="sertifikat">
+                    <img src="s1.jpg" alt="">
+                    <img src="s2.jpg" alt="">
+                    <img src="s3.jpg" alt="">
+                    <img src="s4.jpg" alt="">
+                    <img src="s5.jpg" alt="">
+                    <img src="s6.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <!-- sertifikat end -->
+
+        <!-- Countact -->
+        <div id="contact" class="container-contact">
+            <div class="main-contact">
+                <h1>contact me</h1>
+                <div class="contact">
+                    <a href="https://smkyadikasoreang.sch.id/"><img src="instagram.png" alt=""></a>
+                    <a href="https://smkyadikasoreang.sch.id/"><img src="github.png" alt=""></a>
+                    <a href="https://smkyadikasoreang.sch.id/"><img src="whatsapp.png" alt=""></a>
+                    <a href="https://smkyadikasoreang.sch.id/"><img src="mail.png" alt=""></a>
+                </div>
+            <div class="invite">
+                <h2>NGODING BARENG???<span>GABUNG SINI!</span></h2>
+                <a href="https://smkyadikasoreang.sch.id/"><img src="discord.png" alt=""><p>Ngoding Bareng</p></a>
+            </div>
+        </div>
+        <!-- contact end -->
+
+        <footer className="footer">
+              <p>copyright by Davin Naziel Bawarik 2024</p>
+        </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        feather.replace();
+        AOS.init();
+
+        var type = new Typed (".auto-typing",{
+          strings : ["My Portofolio", "My landing page"],
+          typeSpeed : 100,
+          backSpeed : 100,
+          loop : true
+        }
+        );
+    </script>
+</body>
+
+</html>
