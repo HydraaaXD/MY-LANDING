@@ -92,15 +92,17 @@ body {
     border-radius: 10px;
     text-decoration: none;
  }
+ .welcome a:hover{
+   background: linear-gradient(45deg, rgb(42, 251, 244), rgb(123, 10, 175));
+   cursor: pointer;
+   color: white;
+ }
  .container-home h1{
     color: white;
     background:linear-gradient(to bottom, rgb(42, 251, 244), rgb(148, 15, 243)) ;
     border-radius: 30px;
     padding: 1rem 6rem;
     margin: 0 25rem;
- }
- @keyframes button-animation{
-   
  }
  .container-home #about{
     display: flex;
@@ -159,7 +161,7 @@ body {
  }
 .link-icon a:hover{
    background: linear-gradient(to bottom, rgb(42, 251, 244), rgb(123, 10, 175));
-  
+   box-shadow: 10px 10px 10px aqua;
    cursor: pointer;
 }
 .container-project{
@@ -252,6 +254,10 @@ body {
     margin: 2rem; 
     border-radius: 20px;
     box-shadow: 10px 10px 10px rgb(143, 84, 233);
+}
+contact img:hover{
+   background:linear-gradient(to bottom, rgb(42, 251, 244), rgb(148, 15, 243)) ;
+   cursor: pointer;
 }
 .invite a{
     color: white;
