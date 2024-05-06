@@ -25,6 +25,10 @@ body {
     }
 }
 
+.navbar-container{
+   display: flex;
+   justify-content: center;
+}
 .navbar {
     display: flex;
     justify-content: center;
@@ -34,7 +38,6 @@ body {
     border-radius: 50px;
     position: fixed;
     width: 40pc;
-    margin: 0 19rem;
     margin-top: 2rem;
     z-index: 9999;
   }
@@ -101,13 +104,14 @@ body {
     color: white;
     background:linear-gradient(to bottom, rgb(42, 251, 244), rgb(148, 15, 243)) ;
     border-radius: 30px;
+    display: flex;
     padding: 1rem 6rem;
-    margin: 0 25rem;
+    margin: 0 14rem;
+    justify-content: center;
  }
  .container-home #about{
-    display: flex;
-    justify-content: center;
-    text-align: center;
+   color: white;
+   text-align: center;
  }
  .main-home{
     padding: 5rem;
@@ -172,8 +176,10 @@ body {
     color: white;
     background:linear-gradient(to bottom, rgb(42, 251, 244), rgb(148, 15, 243)) ;
     border-radius: 30px;
+    display: flex;
     padding: 1rem 6rem;
-    margin: 0 25rem;
+    margin: 0 14rem;
+    justify-content: center;
  }
  .main-project{
     display: flex;
@@ -281,4 +287,18 @@ footer{
     background:linear-gradient(to bottom, rgb(20, 155, 251), black)  ;
     padding: 1rem;
     border-radius: 30px;
+}
+
+@media (max-width: 962px) {
+   .navbar h1{
+      display: none;
+   }
+   .navbar svg{
+      width: 80px;
+    }
+   .main-home {
+     flex-direction: column;
+     gap: 3rem;
+     align-items: center;
+   }
 }
